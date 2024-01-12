@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* header */
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.header-links a{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    transition: .6s;
+    margin-left: 25px;
+}
+
+.header-links a:hover{
+    color: #BD1D1D;
+}
+
+
+
+/* admin */
+
+#admin{
+    background: #95B9C9;
+    width: 100%;
+    height: 88vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form h1{
+    color: #33332D;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    margin: 70px 0 100px 0;
+}
+
+input{
+    margin: 10px 0;
+    width: 550px;
+    height: 60px;
+    border: 2px solid cadetblue;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 30px;
+}
+
+form button{
+    padding: 20px 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #DDAA27;
+}
+
+
+
+/* order */
+#order{
+    background: #95B9C9;
+    width: 100%;
+    height: 88vh;
+}
+
+
+
+
+/* menu */
+#menu{
+    background: #95B9C9;
+    width: 100%;
+    height: 88vh;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.menu-product{
+    width: 340px;
+    height: 300px;
+    border-radius: 15px;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-product h1{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+    padding: 10px ;
+
+}
+
+.menu-product  img{
+    width: 310px;
+    height: 167px;
+    margin: 10px auto;
+}
+
+
+.menu-cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.menu-cost h2{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+}
+
+.menu-cost button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    border-radius: 10px;
+    background: #DDAA27;
+    padding: 7px 20px;
+    border: none;
+    margin: 10px;
+}
